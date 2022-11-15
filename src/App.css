@@ -23,3 +23,32 @@ nav > h4 {
   font-weight: 600;
   color: #DEEBF8;
 }
+
+main {
+  padding: 57px 27px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./react-icon-large.png');
+  background-repeat: no-repeat;
+  background-position: 100% 75%;
+}
+
+main > h1 {
+  margin: 0 0 0 -60px;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+ .list {
+  margin-top: 46px;
+}
+
+.list > li {
+  padding-block: 10px;
+}
+
+.list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
