@@ -1,5 +1,25 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21222A;
+  padding: 30px 25px;
+}
 
- body {
-   font-family: 'Inter', sans-serif;
- }
+.logo-section {
+  display: flex;
+  color: #61DAFB;
+}
+
+.logo-section > h3 {
+  font-size: 22px;
+}
+
+.logo {
+  width: 60px;
+}
+
+nav > h4 {
+  font-weight: 600;
+  color: #DEEBF8;
+}
